@@ -3,8 +3,9 @@
 	"displayName": "create_module",
 	"description": "create new package for modularization flutter",
 	"version": "0.0.1",
+	"publisher": "rizalId",
 	"engines": {
-		"vscode": "^1.60.0"
+		"vscode": "^1.61.0"
 	},
 	"categories": [
 		"Other"
@@ -21,6 +22,10 @@
 			}
 		]
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rizalkusumajati/createNewModule.git"
+	  },
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
